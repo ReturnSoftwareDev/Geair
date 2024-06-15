@@ -17,6 +17,7 @@ public class BlogController : Controller
     }
     public IActionResult Index()
     {
+        //test branch
         return View();
     }
     public async Task<IActionResult> Detail(int id)
